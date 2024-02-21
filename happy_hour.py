@@ -19,7 +19,7 @@ def is_christmas(date):
 def is_easter(date):
     return date == calc_easter_sunday(date.year)
 
-def is_sunday(date):
+def is_sunday(date): 
     return date.weekday() == 6
 
 def calc_easter_sunday(year):
