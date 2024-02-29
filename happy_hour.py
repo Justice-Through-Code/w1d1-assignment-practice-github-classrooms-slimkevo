@@ -43,4 +43,4 @@ if __name__ == "__main__":
     user_time = input("Enter time (HH:MM): ")
 
     result = is_happy_hour(user_date, user_time)
-    print("Is it happy hour?", result)
+    print("Is it happy hour?", result) 
